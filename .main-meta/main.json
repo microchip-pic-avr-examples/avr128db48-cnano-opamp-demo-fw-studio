@@ -1,0 +1,71 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-cnano-opamp-demo-fw-studio",
+        "version": "1.0.0",
+        "displayName": "AVR128DB48 cnano opamp demo fw studio",
+        "projectName": "avr128db48-cnano-opamp-demo-fw-studio",
+        "shortDescription": "",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ""
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": ""
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVR128DB48",
+                "versionRange": "*"
+            }
+        },
+        "author": "",
+        "subcategories": [
+            "",
+            [
+                "Peripherals",
+                ""
+            ],
+            [
+                "Peripherals",
+                ""
+            ]
+        ],
+        "peripherals": [
+            "",
+            ""
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
