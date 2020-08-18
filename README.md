@@ -22,30 +22,30 @@ In addition to the OPAMP configuration the onboard LED0 will blink a number of t
 
 * [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
 
-## Operation
+## Setup
 
 #### Modes of Operation
 
-The board is in standby sleep mode with the OPAMPs enabled in between reconfiguration of the OPAMPs.
+The AVR128DB48 is in standby sleep mode with the OPAMPs enabled in between reconfiguration of the OPAMPs.
 
-| PC4 | PC5 | PC6 | Configuration                  |  
+| PC6 | PC5 | PC4 | Configuration                  |  
 | --- | --- | --- | -------------                  |
-|  0  |  1  |  1  | 1 - Connected directly to pins |
+|  1  |  1  |  0  | 1 - Connected directly to pins |
 |  1  |  0  |  1  | 2 - Voltage follower           |
-|  0  |  0  |  1  | 3 - Non-Inverting PGA          |
-|  1  |  1  |  0  | 4 - Inverting PGA              |
+|  1  |  0  |  0  | 3 - Non-Inverting PGA          |
+|  0  |  1  |  1  | 4 - Inverting PGA              |
 |  0  |  1  |  0  | 5 - Differential amplifier     |
-|  1  |  0  |  0  | 6 - Instrumentation amplifier  |  
+|  0  |  0  |  1  | 6 - Instrumentation amplifier  |  
 
 If the pins PC4, PC5 and PC6 has a different configuration than in the table above, the AVR defaults to Configuration 1, Connected directly to pins.
 
 #### OPAMP Pins on AVR128DB48
 
-| OPAMPn | Positive input (INP) | Negative input (INN) | Output (OUT) |
-| ------ | -------------------- | -------------------- | ------------ |
-| OPAMP0 |         PD1          |          PD3         |     PD2      |
-| OPAMP1 |         PD4          |          PD7         |     PD5      |
-| OPAMP2 |         PE1          |          PE3         |     PE2      |
+| OPAMP | Positive input (INP) | Negative input (INN) | Output (OUT) |
+| ----- | -------------------- | -------------------- | ------------ |
+| OP0   |         PD1          |          PD3         |     PD2      |
+| OP1   |         PD4          |          PD7         |     PD5      |
+| OP2   |         PE1          |          PE3         |     PE2      |
 
 ### Configuration 1: Connected Directly to Pins
 
