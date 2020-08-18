@@ -28,10 +28,9 @@
 #include <avr/sleep.h>
 #include <avr/interrupt.h>
 
-
-#include "opamp.h"
-#include "port.h"
-#include "tca.h"
+#include <opamp.h>
+#include <port.h>
+#include <tca.h>
 
 typedef enum {
 	SINGLE=1,
