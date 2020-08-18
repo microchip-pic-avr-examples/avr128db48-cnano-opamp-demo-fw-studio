@@ -71,10 +71,12 @@
         <avrgcc.compiler.symbols.DefSymbols>
           <ListValues>
             <Value>NDEBUG</Value>
+            <Value>F_CPU=32768</Value>
           </ListValues>
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
+            <Value>../inc</Value>
             <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.2.56\include</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
@@ -89,6 +91,7 @@
         </avrgcc.linker.libraries.Libraries>
         <avrgcc.assembler.general.IncludePaths>
           <ListValues>
+            <Value>../inc</Value>
             <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.2.56\include</Value>
           </ListValues>
         </avrgcc.assembler.general.IncludePaths>
@@ -130,6 +133,7 @@
         </avrgcc.linker.libraries.Libraries>
         <avrgcc.assembler.general.IncludePaths>
           <ListValues>
+            <Value>../inc</Value>
             <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.2.56\include</Value>
           </ListValues>
         </avrgcc.assembler.general.IncludePaths>
