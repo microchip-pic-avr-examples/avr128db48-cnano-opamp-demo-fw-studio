@@ -43,7 +43,7 @@ void port_init(void){
 	
 	/*Setup SW0*/
 	PORTB.DIRCLR = PIN2_bm;
-	PORTB.PIN2CTRL = PORT_ISC_FALLING_gc;
+	PORTB.PIN2CTRL = PORT_ISC_FALLING_gc | PORT_PULLUPEN_bm;
 }
 
 
