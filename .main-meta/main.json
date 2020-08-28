@@ -5,25 +5,25 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128db48-cnano-opamp-demo-fw-studio",
         "version": "1.0.0",
-        "displayName": "AVR128DB48 cnano opamp demo fw studio",
+        "displayName": "AVR128DB48 Curiosity Nano OPAMP Demonstration Firmware",
         "projectName": "avr128db48-cnano-opamp-demo-fw-studio",
-        "shortDescription": "",
+        "shortDescription": "Atmel Studio version of the Analog Signal Conditioning (OPAMP) demonstration firmware on the AVR128DB48 Curiosity Nano development kit",
         "ide": {
             "name": "Studio",
-            "semverRange": ""
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
-            {
-                "name": "AVR-GCC",
-                "semverRange": ""
-            }
-        ],
+			{
+				"name": "AVR-GCC",
+				"semverRange": "^5.4.0"
+			}
+		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.3.67"
         },
         "configurator": {
-            "name": "",
+        	"name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -36,25 +36,31 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
             "",
             [
-                "Peripherals",
-                ""
+                "Peripherals", "OPAMP"
             ],
             [
-                "Peripherals",
-                ""
+               "Development Kit", "AVR128DB48 Curiosity Nano"
             ]
         ],
         "peripherals": [
-            "",
-            ""
+            "OPAMP"
         ],
         "keywords": [
-            "",
-            ""
+            "Operational Amplifier",
+            "Op Amp",
+            "Analog Signal Conditioning",
+            "Resistor Ladder",
+            "Voltage Follower",
+            "Programmable Gain Amplifier",
+            "Inverting PGA",
+            "Non-Inverting PGA"
+            "Differential Amplifier",
+            "Instrumentation Amplifier",
+            "CNANO",
         ],
         "additionalData": {
             "longDescription": {
