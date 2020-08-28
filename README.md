@@ -67,11 +67,11 @@ In the *Voltage follower* mode each op amp is configured as voltage followers, t
 
 In the *Non-inverting PGA* mode each op amp is configured as non-inverting PGA using the internal resistor lader. INP and the OUT are connected to the I/O pins. Each the op amp is configured with different gain as listed below: 
 
-| OPAMPn | Gain | Positive input (INP) | Output (OUT) |
+| OPAMP  | Gain | Positive input (INP) | Output (OUT) |
 | :----: | :--: | :------------------: | :----------: |
-| OPAMP0 |  4x  |         PD1          |     PD2      |
-| OPAMP1 |  8x  |         PD4          |     PD5      |
-| OPAMP2 | 16x  |         PE1          |     PE2      |
+| OP0    |  4x  |         PD1          |     PD2      |
+| OP1    |  8x  |         PD4          |     PD5      |
+| OP2    | 16x  |         PE1          |     PE2      |
 
 ![Non-Inverting PGA](images/OPn_NonInvertingPGA.png)
 
@@ -81,11 +81,11 @@ In the *Inverting PGA* configuration each of the OPAMPs are configured as invert
 
 Each op amp is configured with different gain as listed below:
 
-| OPAMPn | Gain |   RESMUXBOT (Vin)   | Output (OUT) |
+| OPAMP  | Gain |   RESMUXBOT (Vin)   | Output (OUT) |
 | :----: | :--: | :-----------------: | :----------: |
-| OPAMP0 |  3x  |        PD1          |     PD2      |
-| OPAMP1 |  7x  |        PD4          |     PD5      |
-| OPAMP2 | 15x  |        PE1          |     PE2      |
+| OP0    |  -3x |        PD1          |     PD2      |
+| OP1    |  -7x |        PD4          |     PD5      |
+| OP2    | -15x |        PE1          |     PE2      |
 
 ![Inverting PGA](images/OPn_InvertingPGA.png)
 
