@@ -91,7 +91,7 @@ Each op amp is configured with different gain as listed below:
 
 ### Configuration 5: Differential Amplifier
 
-In the *Differential amplifier* configuration OPAMP0 and OPAMP1 is set up as a differential amplifier with a gain of 15x and the following inpup/outut pins:
+In the *Differential amplifier* configuration OPAMP0 and OPAMP1 is set up as a differential amplifier with a gain of 15x and the following input/output pins:
 
 | V1 input | V2 input | Output |
 | -------- | -------- | ------ |
