@@ -56,11 +56,11 @@
             "Resistor Ladder",
             "Voltage Follower",
             "Programmable Gain Amplifier",
+            "PGA",
             "Inverting PGA",
             "Non-Inverting PGA",
             "Differential Amplifier",
             "Instrumentation Amplifier",
-            "CNANO",
             "AVR-DB",
             "AVRDB",
             "cnano-opamp-demo-fw"
