@@ -16,7 +16,7 @@ In addition to the OPAMP configuration the onboard LED0 will blink a number of t
 ## Software Used
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.2.56 or later
+* Atmel Studio AVR-Dx_DFP version 1.3.67 or later
 
 ## Hardware Used
 
