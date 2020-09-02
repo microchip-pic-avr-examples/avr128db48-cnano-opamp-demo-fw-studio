@@ -10,7 +10,7 @@ In addition to the OPAMP configuration the onboard LED0 will blink a number of t
 
 ## Related Documentation
 
-* [AVR128DB48 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
