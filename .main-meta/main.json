@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128db48-cnano-opamp-demo-fw-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "AVR128DB48 Curiosity Nano OPAMP Demonstration Firmware",
         "projectName": "avr128db48-cnano-opamp-demo-fw-studio",
         "shortDescription": "This Atmel Studio 7 bare metal code demonstrates the different ways of configuring the Analog Signal Conditioning (OPAMP) peripheral with the AVR128DB48 Curiosity Nano development kit.  This is the factory programmed FW on the kit, allowing opamp evaluation without programming.",
@@ -38,7 +38,6 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "",
             [
                 "Peripherals", "OPAMP"
             ],
