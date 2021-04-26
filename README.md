@@ -83,9 +83,9 @@ Each op amp is configured with different gain as listed below:
 
 | OPAMP  | Gain |   RESMUXBOT (Vin)   | Output (OUT) |
 | :----: | :--: | :-----------------: | :----------: |
-| OP0    |  -3x |        PD1          |     PD2      |
-| OP1    |  -7x |        PD4          |     PD5      |
-| OP2    | -15x |        PE1          |     PE2      |
+| OP0    |  -3x |        PD3          |     PD2      |
+| OP1    |  -7x |        PD7          |     PD5      |
+| OP2    | -15x |        PE3          |     PE2      |
 
 ![Inverting PGA](images/OPn_InvertingPGA.png)
 
