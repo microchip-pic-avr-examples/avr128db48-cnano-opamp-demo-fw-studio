@@ -15,8 +15,8 @@ In addition to the OPAMP configuration the onboard LED0 will blink a number of t
 
 ## Software Used
 
-* [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.3.67 or later
+* [Microchip Studio](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices) 7.0.2542 or later
+* Microchip Studio AVR-Dx_DFP version 1.3.67 or later
 
 ## Hardware Used
 
@@ -26,7 +26,7 @@ In addition to the OPAMP configuration the onboard LED0 will blink a number of t
 
 A brand new AVR128DB48 Curiosity Nano comes with this code in this repository already programmed.
 It can be reprogrammed to the AVR128DB48 by copying the [hex file](Debug/avr128db48-cnano-opamp-demo-fw.hex) to the CURIOSITY virtual drive.
-It is also possible to open the .atsln file and program the device using Atmel Studio 7.
+It is also possible to open the .atsln file and program the device using Microchip Studio 7.
 
 ## Operation
 
