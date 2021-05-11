@@ -2,7 +2,7 @@
 
 # AVR128DB48 Curiosity Nano OPAMP Demonstration Firmware
 
-The AVR128DB48 Curiosity Nano Evaluation Kit is preprogramed to provide a number of different OPAMP configurations, depending on the state of the three input pins PC4, PC5 and PC6. Each of these pins is internally pulled high, If left unconnected the corresponding pin is high and reads logic '1'. Connect the pin directly to ground for logic '0'.
+The AVR128DB48 Curiosity Nano Evaluation Kit is preprogrammed to provide a number of different OPAMP configurations, depending on the state of the three input pins PC4, PC5 and PC6. Each of these pins is internally pulled high, If left unconnected the corresponding pin is high and reads logic '1'. Connect the pin directly to ground for logic '0'.
 
 In addition to the OPAMP configuration the onboard LED0 will blink a number of times equal to the current setting. To check current setting and/or reconfigure, click the on board switch(SW0).
 
@@ -65,7 +65,7 @@ In the *Voltage follower* mode each op amp is configured as voltage followers, t
 
 ### Configuration 3: Non-Inverting PGA (Programable Gain Amplifier)
 
-In the *Non-inverting PGA* mode each op amp is configured as non-inverting PGA using the internal resistor lader. INP and the OUT are connected to the I/O pins. Each the op amp is configured with different gain as listed below: 
+In the *Non-inverting PGA* mode each op amp is configured as non-inverting PGA using the internal resistor ladder. INP and the OUT are connected to the I/O pins. Each the op amp is configured with different gain as listed below: 
 
 | OPAMP  | Gain | Positive input (INP) | Output (OUT) |
 | :----: | :--: | :------------------: | :----------: |
@@ -77,7 +77,7 @@ In the *Non-inverting PGA* mode each op amp is configured as non-inverting PGA u
 
 ### Configuration 4: Inverting PGA
 
-In the *Inverting PGA* configuration each of the OPAMPs are configured as inverting PGAs using the internal resistor lader.
+In the *Inverting PGA* configuration each of the OPAMPs are configured as inverting PGAs using the internal resistor ladder.
 
 Each op amp is configured with different gain as listed below:
 
